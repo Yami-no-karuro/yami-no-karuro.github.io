@@ -3,24 +3,7 @@
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
 }
-@keyframes drive {
-    0% { opacity: 0; left: 0px; }
-    35% { opacity: 1; }
-    75% { opacity: 1; }
-    100% {  opacity: 0; left: calc(100vw - 95px); }
-}
 
-div.car {
-    width: 125px;
-    height: auto;
-}
-div.car-animated {
-    position: absolute;
-    width: 95px;
-    opacity: 0;
-    animation: drive 6s ease-in-out 1;
-    animation-delay: 2s;
-}
 nav.sticky-nav {
     position: fixed;
     z-index: 1000;
