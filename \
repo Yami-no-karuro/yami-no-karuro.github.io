@@ -42,17 +42,17 @@
           Where every project tells a story through (<i>hopefully</i>) <b>clean code</b> and <b>bold solutions</b>! </p>
       </div>
     </section>
-    <section id="bio" class="container py-3 mb-5">
+    <section id="bio" class="container py-3">
       <div class="section-head">
         <h2 class="section-title m-0"> Biography </h2>
         <p class="section-subtitle lead"> A quick look at who I am </p>
       </div>
       <p> My name is <b>Carlo Borgna</b>, but you’ll find me online as <b>Yami-no-karuro</b>. </br> 
         I’m a software developer with a strong passion for technology, mainly focused on <b>back-end</b> development. </p>
-      <p> I always enjoy experimenting, learning new things, and writing code. </br>
-        To me, software is both a <b>creative expression</b> and a tool to craft <b>meaningful solutions</b>. </p>
+      <p> I enjoy experimenting, learning new things, and building reliable, modular, and well-documented software. </br>
+        To me, code is both a creative expression and a tool to craft meaningful solutions. </p>
     </section>
-    <section id="highlights" class="container py-3">
+    <section id="highlights" class="container py-3 mb-5">
       <div class="section-head">
         <h2 class="section-title m-0"> Highlights </h2>
         <p class="section-subtitle lead"> <a class="link-primary link-underline-opacity-0" rel="nofollow noreferrer" href="https://github.com/Yami-no-karuro">Github</a> pinned projects </p>

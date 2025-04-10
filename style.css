@@ -4,6 +4,15 @@
     100% { opacity: 1.0; }
 }
 
+nav.sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+p.hero-lead {
+    line-height: 1.6rem;
+}
 div.active-cursor::after {
     content: '';
     display: inline-block;
