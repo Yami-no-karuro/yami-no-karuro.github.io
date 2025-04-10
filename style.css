@@ -3,16 +3,29 @@
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
 }
+@keyframes drive {
+    0% { opacity: 0; left: 0px; }
+    75% { opacity: 1; }
+    100% {  opacity: 0; left: calc(100vw - 95px); }
+}
 
+div.car {
+    width: 125px;
+    height: auto;
+}
+div.car-animated {
+    position: absolute;
+    width: 95px;
+    opacity: 0;
+    animation: drive 6s ease-in-out 1;
+}
 nav.sticky-nav {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
 }
-p.hero-lead {
-    line-height: 1.6rem;
-}
+p.hero-lead { line-height: 1.6rem; }
 div.active-cursor::after {
     content: '';
     display: inline-block;
@@ -23,12 +36,8 @@ div.active-cursor::after {
     height: 16px;
     animation: blink 1s infinite step-end;
 }
-html[data-bs-theme="dark"] div.active-cursor::after {
-    background-color: #fff;
-}
-html[data-bs-theme="light"] div.active-cursor::after {
-    background-color: #000;
-}
+html[data-bs-theme="dark"] div.active-cursor::after { background-color: #fff; }
+html[data-bs-theme="light"] div.active-cursor::after { background-color: #000; }
 @media (max-width: 767.98px) {
     div.terminal {
         font-size: 0.8rem;
