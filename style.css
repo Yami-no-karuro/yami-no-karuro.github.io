@@ -4,16 +4,10 @@
     100% { opacity: 1.0; }
 }
 
-nav.sticky-nav {
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    right: 0;
-}
 p.hero-lead { line-height: 1.6rem; }
 div.active-cursor::after {
     content: '';
+    background-color: #000;
     display: inline-block;
     position: relative;
     left: 5px;
@@ -21,11 +15,4 @@ div.active-cursor::after {
     width: 8px;
     height: 16px;
     animation: blink 1s infinite step-end;
-}
-html[data-bs-theme="dark"] div.active-cursor::after { background-color: #fff; }
-html[data-bs-theme="light"] div.active-cursor::after { background-color: #000; }
-@media (max-width: 767.98px) {
-    div.terminal {
-        font-size: 0.8rem;
-    }
 }
