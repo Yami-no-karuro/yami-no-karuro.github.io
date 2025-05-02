@@ -16,3 +16,9 @@ div.active-cursor::after {
     height: 16px;
     animation: blink 1s infinite step-end;
 }
+
+@media screen and (max-width: 540px) {
+  div.terminal {
+    zoom: 65%;
+  }
+}
